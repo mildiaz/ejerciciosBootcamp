@@ -19,7 +19,11 @@
     let numeroRuedas = 4;
 
     console.log("El nombre del país es: " + nombrePais);
+    console.log(`El nombre del país es: ${nombrePais}`);
+
     console.log("La persona tiene: " + edadPersona + " años");
+    console.log(`La persona tiene: ${edadPersona} años`);
+
     console.log("El nombre del usuario actual es: " + nombreUsuarioActual);
     console.log("La gravedad de la tierra es: " + gravedadTierra + " m/s2");
     console.log("El producto vale: " + precioProducto + " pesos");
@@ -27,7 +31,30 @@
     console.log("El año tiene: "  + mesesAnio + " meses");
     console.log("Tengo: " + "$" + dineroBanco + " pesos en el Banco");
     console.log("Mi carro tiene: " + numeroRuedas + " ruedas");
+
+    let edad = 18
+    if (edad >= 18){
+        console.log("Ingresa al if");
+    }else{
+        console.log("Ingresa al else")
+    }
     
+    let edades = 5
+    if (edades >= 18){
+        console.log("Ingresa al if");
+    }else{
+        console.log("Ingresa al else")
+    }
+
+    if (edad < 12){
+        console.log("Niño");
+    }else if (edad >= 12 && edad <= 19){
+        console.log("Adolescente");
+    }else {
+    console.log("Adulto");
+}
+
 </script>
+
 </body>
 </html>
