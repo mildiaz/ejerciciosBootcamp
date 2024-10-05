@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miFuncion</title>
+
+    <script>
+        function capturarTexto() {
+            var texto = document.getElementById("campoTexto").value;
+            document.getElementById("resultado").innerText = "El texto que usted escribió es: " + texto;
+        }
+    </script>
+
+</head>
+<body>
+    <h2>Capturar texto dentro de un campo de texto</h2>
+    
+    <label for="campoTexto" >Escriba lo usted quiera</label>
+    <input type="text" id="campoTexto" placeholder="Escriba algo aquí">
+    <button onclick="capturarTexto()">Capturar texto</button>
+    <div id="resultado"></div>
+
+</body>
+</html>

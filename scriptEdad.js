@@ -28,4 +28,4 @@ else if (edad >18){
 
 }
 
-
+document.getElementById("botonEdad").onclick = verificarEdad;
